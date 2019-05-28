@@ -1,0 +1,14 @@
+// export const SET_NUMBERS = "SET_NUMBERS";
+export const SET_MATRIX = "SET_MATRIX";
+export const SET_MATR = "SET_MATR";
+export const SET_AVERVAL = "SET_AVERVAL";
+export const SET_M = "SET_M";
+export const SET_N = "SET_N";
+export const SET_X = "SET_X";
+export const SET_ID = "SET_ID";
+// export const PLUS_CELL = "PLUS_CELL";
+// export const ADD_ROW = "ADD_ROW";
+// export const DELETE_ROW = "DELETE_ROW";
+// export const SET_X = "SET_X";
+// export const SET_LOADING = "SET_LOADING";
+// export const DELETE_ALL = "DELETE_ALL";

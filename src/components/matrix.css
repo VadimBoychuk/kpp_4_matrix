@@ -1,0 +1,97 @@
+body {
+  /* background-image: url(background.png);
+  background-position: center;
+  background-attachment: initial;
+  background-repeat: no-repeat;
+  background-size:  */
+  background-color: rgb(224, 224, 224);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.submitButton {
+  margin-top: 4vh;
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 89, 255);
+  height: 10vh;
+  width: 20vw;
+  background-color: rgba(255, 183, 232, 0.699);
+}
+
+.deleteButton {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 89, 255);
+  height: 5.5vh;
+  box-align: center;
+  background-color: rgba(255, 183, 232, 0.699);
+}
+.deleteButton:hover {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 89, 255);
+  height: 5.5vh;
+  box-align: center;
+  background-color: rgba(255, 61, 194, 0.699);
+}
+
+.column {
+  padding: 1vh;
+  border-collapse: collapse;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 5vh;
+  box-align: center;
+  background-color: rgba(255, 183, 232, 0.699);
+}
+.column-hover {
+  padding: 1vh;
+  border-collapse: collapse;
+  border: 0px;
+  margin: 5vh;
+  box-align: center;
+  background-color: rgba(72, 255, 170, 0.699);
+}
+
+.columnSum {
+  padding: 1vh;
+  border-collapse: collapse;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 5vh;
+  box-align: center;
+  background-color: rgba(255, 0, 0, 0.836);
+}
+
+.columnAver {
+  padding: 1vh;
+  border-collapse: collapse;
+  border: 2px solid rgb(255, 255, 255);
+  margin: 5vh;
+  box-align: center;
+  background-color: rgba(255, 174, 0, 0.836);
+}
+
+.tablealign {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.table {
+  width: auto;
+  height: auto;
+  border-collapse: collapse;
+  margin: 5vh;
+  text-align: center;
+  vertical-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
